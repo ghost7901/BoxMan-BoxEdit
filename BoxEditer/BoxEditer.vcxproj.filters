@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="HTML 帮助主题">
+      <UniqueIdentifier>{6ee1d336-9767-45d2-978b-47e00aca0c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML 帮助文件">
+      <UniqueIdentifier>{9b49ca62-53ef-4050-b1c3-6e52c6afd6e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoxEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxEditer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxEditerWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ini.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMapDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMapDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoxEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxEditer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxEditerWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ini.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadMapDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMapDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\box.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\box.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\box_at_destination.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\box_at_destination.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BoxEditer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\destination.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\destination.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\man.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\man.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\man_at_destination.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\man_at_destination.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Map.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\outside.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\wall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Documents and Settings\ghost79\桌面\wall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\wall.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\box.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\box_at_destination.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BoxEditer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\destination.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\man.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\man_at_destination.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\outside.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wall.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_color.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_fileopen.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_filesave.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_find.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_font.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_newtypedlg.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_print.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_printdlg.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_printsetup.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidd_replace.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidp_default.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidw_dockbar_top.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidw_preview_bar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidw_status_bar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\afx_hidw_toolbar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_app_about.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_app_exit.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_context_help.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_clear.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_clear_all.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_copy.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_cut.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_find.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_paste.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_redo.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_repeat.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_replace.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_edit_undo.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_close.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_mru_file1.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_new.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_open.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_page_setup.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_print.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_print_preview.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_print_setup.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_save.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_save_as.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_file_send_mail.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_help_index.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_help_using.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_ht_caption.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_ht_nowhere.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_next_pane.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_prev_pane.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_close.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_maximize.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_minimize.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_move.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_nextwindow.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_prevwindow.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_restore.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_size.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_sc_tasklist.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_view_ruler.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_view_status_bar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_view_toolbar.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_window_all.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_window_arrange.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_window_cascade.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_window_new.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_window_split.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_window_tile.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_window_tile_horz.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hid_window_tile_vert.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\hidr_doc1type.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\main_index.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\menu_edit.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\menu_file.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\menu_help.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\menu_view.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\menu_window.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\scrollbars.htm">
+      <Filter>HTML 帮助主题</Filter>
+    </None>
+    <None Include="..\hlp\BoxMan.hhc">
+      <Filter>HTML 帮助文件</Filter>
+    </None>
+    <None Include="..\hlp\BoxMan.hhk">
+      <Filter>HTML 帮助文件</Filter>
+    </None>
+    <None Include="..\hlp\BoxMan.hhp">
+      <Filter>HTML 帮助文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BoxEditer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

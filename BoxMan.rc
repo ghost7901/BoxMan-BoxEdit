@@ -1,0 +1,636 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BoxMan.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BoxMan.ico"
+IDI_OK                  ICON                    "res\\Ok3_32x32x256.ico"
+IDI_MORE                ICON                    "res\\Lamp1.ico"
+IDI_CANCEL              ICON                    "res\\Cancel1_32x32x16.ico"
+IDI_OPEN                ICON                    "res\\icon1.ico"
+IDI_DELETE              ICON                    "res\\ico00001.ico"
+IDI_SAVE                ICON                    "res\\ico00002.ico"
+IDI_PREVIEW             ICON                    "res\\ico00003.ico"
+IDI_UP                  ICON                    "res\\ico00004.ico"
+IDI_DOWN                ICON                    "res\\icon2.ico"
+IDI_RIGHT               ICON                    "res\\ico00005.ico"
+IDI_LEFT                ICON                    "res\\icon3.ico"
+IDI_COMPARE             ICON                    "res\\ico00006.ico"
+IDI_RELATION            ICON                    "res\\Classes1_32x32x16.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_MAP1                BITMAP                  "res\\Map1.bmp"
+IDB_MAP2                BITMAP                  "res\\Map2.bmp"
+IDB_MAP3                BITMAP                  "res\\Map3.bmp"
+IDB_MAP4                BITMAP                  "res\\Map4.bmp"
+IDB_SPLASH              BITMAP                  "res\\Splsh16.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  21, 18
+BEGIN
+    BUTTON      ID_GAME_REPLAY
+    BUTTON      ID_LOAD
+    BUTTON      ID_SAVE
+    SEPARATOR
+    BUTTON      ID_PRIOR_MAP
+    BUTTON      ID_SELECTMAP
+    BUTTON      ID_NEXT_MAP
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_SHOW_MOVE_WAY
+    SEPARATOR
+    BUTTON      ID_DIFFICULTY
+    BUTTON      ID_PROMPT
+    BUTTON      ID_SOUND
+    BUTTON      ID_MUSIC
+    SEPARATOR
+    BUTTON      ID_HELP_FINDER
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "游戏(&G)"
+    BEGIN
+        MENUITEM "打开游戏(&O)\tCtrl+I",            ID_OPEN_FILE
+        MENUITEM "重新开始(&N)\tCtrl+N",            ID_GAME_REPLAY
+        MENUITEM "选择关卡(&M)...\tCtrl+M",         ID_SELECTMAP
+        MENUITEM SEPARATOR
+        MENUITEM "载入进度(&L)...\tCtrl+O",         ID_LOAD
+        MENUITEM "存储进度(&S)...\tCtrl+S",         ID_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)\tAlt+F4",              ID_APP_EXIT
+    END
+    POPUP "选项(&O)"
+    BEGIN
+        MENUITEM "撤消(&Z)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        POPUP "选择难度(&N)"
+        BEGIN
+            MENUITEM "儿童级(&1)\tShift+1",            ID_DIFF1
+            MENUITEM "入门级(&2)\tShift+2",            ID_DIFF2
+            MENUITEM "趣味级(&3)\tShift+3",            ID_DIFF3
+            MENUITEM "脑力级(&4)\tShift+4",            ID_DIFF4
+            MENUITEM "体力级(&5)\tShift+5",            ID_DIFF5
+            MENUITEM "恐怖级(&6)\tShift+6",            ID_DIFF6
+            MENUITEM "自定义(&7)\tShift+7",            ID_DIFF7
+        END
+        POPUP "选择场景(&Y)"
+        BEGIN
+            MENUITEM "场景一(&1)\tAlt+1",              ID_SCENE1
+            MENUITEM "场景二(&2)\tAlt+2",              ID_SCENE2
+            MENUITEM "场景三(&3)\tAlt+3",              ID_SCENE3
+            MENUITEM "场景四(&4)\tAlt+4",              ID_SCENE4
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "提示(&U)\tF7",                  ID_PROMPT
+        MENUITEM "演示解法(&S)\tF8",                ID_SHOW_MOVE_WAY
+        MENUITEM SEPARATOR
+        MENUITEM "音乐(&I)\tF9",                  ID_MUSIC
+        POPUP "选择(&D)"
+        BEGIN
+            MENUITEM "音乐1(&1)\tCtrl+1",             ID_MUSIC1
+            MENUITEM "音乐2(&2)\tCtrl+2",             ID_MUSIC2
+            MENUITEM "音乐3(&3)\tCtrl+3",             ID_MUSIC3
+            MENUITEM "音乐4(&4)\tCtrl+4",             ID_MUSIC4
+            MENUITEM "音乐5(&5)\tCtrl+5",             ID_MUSIC5
+            MENUITEM "音乐6(&6)\tCtrl+6",             ID_MUSIC6
+            MENUITEM "音乐7(&7)\tCtrl+7",             ID_MUSIC7
+            MENUITEM "音乐8(&8)\tCtrl+8",             ID_MUSIC8
+            MENUITEM "音乐9(&9)\tCtrl+9",             ID_MUSIC9
+            MENUITEM SEPARATOR
+            MENUITEM "更多...(&M)\tCtrl+0",           ID_MORE_MUSIC
+            MENUITEM SEPARATOR
+            MENUITEM "暂停/继续音乐(&P)\tCtrl+P",         ID_PAUSE
+        END
+        MENUITEM "音效(&D)\tCtrl+D",              ID_SOUND
+        MENUITEM SEPARATOR
+        MENUITEM "自动缩放(&W)\tHome",              ID_OPTION_AUTO_ZOOM
+        MENUITEM "自动切换(&Q)\tEnd",               ID_OPTION_SEQUENCE
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "关卡管理器(&M)...",                ID_TOOL_MISSION_MANAGE
+        MENUITEM "关卡设计器(&E)...\tCtrl+E",        ID_TOOL_EDIT_MAP
+        MENUITEM "文件关联器(&L)...",                ID_TOOL_FILE_RELATION
+        MENUITEM SEPARATOR
+        MENUITEM "保存场景图(&S)...",                ID_TOOL_SAVE_SCENE
+        MENUITEM "打印场景图(&P)",                   ID_TOOL_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "复制场景(&C)\tCtrl+C",            ID_TOOL_COPY
+        MENUITEM "粘贴场景(&V)\tCtrl+V",            ID_TOOL_PASTE
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "文本标签(&C)",                    ID_VIEW_TEXTTIPS
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "帮助主题(&H)",                    ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "联系作者(&E)",                    ID_HELP_AUTHOR
+        MENUITEM "作者主页(&W)",                    ID_HELP_WEB
+        MENUITEM SEPARATOR
+        MENUITEM "关于 BoxMan(&A)...",            ID_APP_ABOUT
+    END
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "Music"
+    BEGIN
+        MENUITEM "音乐1(&1)",                     ID_MUSIC1
+        MENUITEM "音乐2(&2)",                     ID_MUSIC2
+        MENUITEM "音乐3(&3)",                     ID_MUSIC3
+        MENUITEM "音乐4(&4)",                     ID_MUSIC4
+        MENUITEM "音乐5(&5)",                     ID_MUSIC5
+        MENUITEM "音乐6(&6)",                     ID_MUSIC6
+        MENUITEM "音乐7(&7)",                     ID_MUSIC7
+        MENUITEM "音乐8(&8)",                     ID_MUSIC8
+        MENUITEM "音乐9(&9)",                     ID_MUSIC9
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "选择难度(&N)"
+    BEGIN
+        MENUITEM "儿童级(&1)",                     ID_DIFF1
+        MENUITEM "入门级(&2)",                     ID_DIFF2
+        MENUITEM "趣味级(&3)",                     ID_DIFF3
+        MENUITEM "脑力级(&4)",                     ID_DIFF4
+        MENUITEM "体力级(&5)",                     ID_DIFF5
+        MENUITEM "恐怖级(&6)",                     ID_DIFF6
+        MENUITEM "自定义(&7)",                     ID_DIFF7
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_GAME_REPLAY,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_GAME_REPLAY,         VIRTKEY, CONTROL, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    "O",            ID_LOAD,                VIRTKEY, CONTROL, NOINVERT
+    VK_F7,          ID_LOAD,                VIRTKEY, NOINVERT
+    VK_F9,          ID_MUSIC,               VIRTKEY, NOINVERT
+    VK_F9,          ID_MUSIC,               VIRTKEY, NOINVERT
+    "1",            ID_MUSIC1,              VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_MUSIC2,              VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_MUSIC3,              VIRTKEY, CONTROL, NOINVERT
+    "4",            ID_MUSIC4,              VIRTKEY, CONTROL, NOINVERT
+    "5",            ID_MUSIC5,              VIRTKEY, CONTROL, NOINVERT
+    "6",            ID_MUSIC6,              VIRTKEY, CONTROL, NOINVERT
+    "7",            ID_MUSIC7,              VIRTKEY, CONTROL, NOINVERT
+    "8",            ID_MUSIC8,              VIRTKEY, CONTROL, NOINVERT
+    "9",            ID_MUSIC9,              VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       ID_NEXT_MAP,            VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_PAUSE,               VIRTKEY, CONTROL, NOINVERT
+    VK_LEFT,        ID_PRIOR_MAP,           VIRTKEY, CONTROL, NOINVERT
+    "U",            ID_PROMPT,              VIRTKEY, CONTROL, NOINVERT
+    VK_F8,          ID_SAVE,                VIRTKEY, NOINVERT
+    "3",            ID_SCENE3,              VIRTKEY, ALT, NOINVERT
+    "4",            ID_SCENE4,              VIRTKEY, ALT, NOINVERT
+    "M",            ID_SELECTMAP,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_SHOW_MOVE_WAY,       VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_SOUND,               VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_SCENE1,              VIRTKEY, ALT, NOINVERT
+    "2",            ID_SCENE2,              VIRTKEY, ALT, NOINVERT
+    "1",            ID_DIFF1,               VIRTKEY, SHIFT, NOINVERT
+    "2",            ID_DIFF2,               VIRTKEY, SHIFT, NOINVERT
+    "3",            ID_DIFF3,               VIRTKEY, SHIFT, NOINVERT
+    "4",            ID_DIFF4,               VIRTKEY, SHIFT, NOINVERT
+    "5",            ID_DIFF5,               VIRTKEY, SHIFT, NOINVERT
+    "6",            ID_DIFF6,               VIRTKEY, SHIFT, NOINVERT
+    "7",            ID_DIFF7,               VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 255, 183
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 BoxMan"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,121,85,60,21
+    PUSHBUTTON      "更多信息",IDC_MORE,187,85,60,21
+    LTEXT           "电子信箱：",IDC_STATIC,7,92,41,8
+    LTEXT           "    本程序同时支持键盘和鼠标操作。鼠标操作时，可点击任意你想去的地方。还有单步演示功能，能一步步的演示一种正确的解法。程序有一点智力，可以自己算出一些简单地图的解法。程序的思考是一个单独的线程，不会影响继续游戏。并且程序在关闭时，会自动记录每一幅地图移动箱子最少的走法。还可以用关卡设计器添加地图，关卡编辑器调整关卡顺序或删除关卡，修改后必须重新启动程序，才能更新修改结果。",IDC_STATIC,7,119,241,57
+    CONTROL         "wuchun79@163.com",IDC_STATIC_MAIL,"Static",SS_SIMPLE | SS_NOPREFIX | SS_NOTIFY | WS_GROUP,49,92,67,8
+    LTEXT           "",IDC_DYSTATIC,7,7,241,73,0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,11,111,233,2,WS_EX_STATICEDGE
+END
+
+IDD_SELECTMAP DIALOGEX 0, 0, 140, 39
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择地图"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,99,4,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "确定",IDOK,17,21,43,14
+    PUSHBUTTON      "取消",IDCANCEL,78,21,43,14
+    LTEXT           "输入想玩的关: 1 —",IDC_STATIC,9,6,63,8
+    LTEXT           "待定",IDC_MAX_MISSION_NUM,74,6,17,8
+END
+
+IDD_MISSION_CHILD DIALOGEX 0, 0, 165, 156
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_MISSION,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,22,165,108
+    PUSHBUTTON      "",IDC_OPEN,10,136,16,16
+    PUSHBUTTON      "",IDC_SAVE,140,136,16,16
+    PUSHBUTTON      "",IDC_PREVIEW,114,136,16,16
+    PUSHBUTTON      "",IDC_DELETE,88,136,16,16
+    PUSHBUTTON      "",IDC_UP,36,136,16,16
+    PUSHBUTTON      "",IDC_DOWN,62,136,16,16
+    EDITTEXT        IDC_MAP_PATH,0,4,165,14,ES_AUTOHSCROLL
+END
+
+IDD_MISSION_MANAGE DIALOGEX 0, 0, 375, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关卡管理器"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB2,"SysTabControl32",0x0,199,4,168,170
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,7,4,168,170
+    PUSHBUTTON      "",IDC_RIGHT,179,68,16,16
+    PUSHBUTTON      "",IDC_LEFT,179,92,16,16
+    GROUPBOX        "",IDC_STATIC,174,12,26,163
+    PUSHBUTTON      "",IDC_COMPARE,179,116,16,16
+    CONTROL         "",IDC_COMPARE_PROGRESS,"msctls_progress32",WS_BORDER,7,173,360,6
+    EDITTEXT        IDC_RESULT,7,179,359,68,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+END
+
+IDD_FILE_RELATION DIALOGEX 0, 0, 186, 58
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文件关联"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "创建BXS存档文件关联",IDC_BXS_RELATION,6,8,106,17
+    PUSHBUTTON      "创建BXM地图文件关联",IDC_BXM_RELATION,6,28,106,17
+    PUSHBUTTON      "删除",IDC_DEL_BXS_RELATION,131,8,47,17
+    PUSHBUTTON      "删除",IDC_DEL_BXM_RELATION,131,27,47,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2002,1,12,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "Hunter"
+            VALUE "FileDescription", "BoxMan Microsoft 基础类应用程序"
+            VALUE "FileVersion", "2002, 01, 12, 0"
+            VALUE "InternalName", "BoxMan"
+            VALUE "LegalCopyright", "Hunter 版权所有 (C) 1999"
+            VALUE "OriginalFilename", "BoxMan.EXE"
+            VALUE "ProductName", "搬运工"
+            VALUE "ProductVersion", "1 . 0 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SELECTMAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 133
+        BOTTOMMARGIN, 35
+    END
+
+    IDD_MISSION_CHILD, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_MISSION_MANAGE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 249
+    END
+
+    IDD_FILE_RELATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MY_HAND             CURSOR                  "res\\hand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "BoxMan"
+    ID_PREVIEW_WND          "预览"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "BoxMan"
+    AFX_IDS_IDLEMESSAGE     "作者：吴春"
+    AFX_IDS_HELPMODEMESSAGE "选定一个要得到帮助的对象"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序\n退出"
+    ID_HELP_INDEX           "打开帮助\n帮助主题"
+    ID_HELP_FINDER          "列出帮助主题\n帮助"
+    ID_HELP_USING           "显示关于如何使用帮助的指令\n帮助"
+    ID_CONTEXT_HELP         "显示对按钮、菜单和窗口执行单击操作的帮助\n帮助"
+    ID_HELP                 "显示对当前任务或命令的帮助\n帮助"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "选择自定义级难度"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SELECTMAP            "您可以任选关卡\n选关"
+    ID_SHOW_MOVE_WAY        "单步的演示正确的走法\n答案"
+    ID_PROMPT               "提示您不要走死路\n提示"
+    ID_PRIOR_MAP            "选择上一关\n前关"
+    ID_NEXT_MAP             "选择下一关\n后关"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MUSIC1               "播放背景音乐1\n音乐"
+    ID_MUSIC2               "播放背景音乐2\n音乐2"
+    ID_PAUSE                "暂停/继续背景音乐\n音乐"
+    ID_MUSIC3               "播放背景音乐3"
+    ID_MUSIC4               "播放背景音乐4"
+    ID_MUSIC5               "播放背景音乐5"
+    ID_MUSIC6               "播放背景音乐6"
+    ID_MUSIC7               "播放背景音乐7"
+    ID_MUSIC8               "播放背景音乐8"
+    ID_MUSIC9               "播放背景音乐9"
+    ID_SOUND                "设置/取消音效\n音效"
+    ID_GAME_REPLAY          "重新开始本关游戏\n重玩"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MORE_MUSIC           "播放磁盘上的MIDI文件"
+    ID_STOP_MUSIC           "停止播放所有MIDI文件"
+    ID_MUSIC                "播放/停止背景音乐\n音乐"
+    ID_TOOLBAR_TEXT         "设置/取消文本标签"
+    ID_SCENE1               "选择场景图案方案1"
+    ID_SCENE2               "选择场景图案方案2"
+    ID_SCENE3               "选择场景图案方案3"
+    ID_SCENE4               "选择场景图案方案4"
+    ID_LOAD                 "载入游戏进度\n打开"
+    ID_SAVE                 "存储当前游戏进度\n保存"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DIFFICULTY           "选择难度等级\n难度"
+    ID_DIFF1                "选择儿童级难度"
+    ID_DIFF2                "选择入门级难度"
+    ID_DIFF3                "选择趣味级难度"
+    ID_DIFF4                "选择脑力级难度"
+    ID_DIFF5                "选择体力级难度"
+    ID_DIFF6                "选择恐怖级难度"
+    ID_DIFF7                "选择自定义级难度"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TOOL_EDIT_MAP        "设计制作新关卡"
+    ID_TOOL_MISSION_MANAGE  "修改地图关卡文件"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TOOL_ANSWER_MANAGE   "答案文件管理"
+    ID_OPTION_AUTO_ZOOM     "界面自动缩放"
+    ID_OPTION_SEQUENCE      "自动切换场景"
+    ID_TOOL_SAVE_SCENE      "保存当前场景为BMP"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TOOL_FILE_RELATION   "地图文件与存档文件关联器"
+    ID_HELP_AUTHOR          "给作者发电子邮件"
+    ID_HELP_WEB             "访问作者主页"
+    ID_TOOL_PRINT           "打印当前场景"
+    ID_VIEW_TEXTTIPS        "显示或隐藏文本标签"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_COPY                 "复制当前状态"
+    ID_TOOL_PASTE           "粘贴状态"
+    ID_TOOL_COPY            "复制当前状态"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\BoxMan.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

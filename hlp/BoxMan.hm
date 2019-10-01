@@ -1,0 +1,84 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_PREVIEW_WND                         0x10081
+HID_SELECTMAP                           0x18004
+HID_SHOW_MOVE_WAY                       0x18005
+HID_PROMPT                              0x18007
+HID_PRIOR_MAP                           0x1800A
+HID_NEXT_MAP                            0x1800B
+HID_MUSIC1                              0x18013
+HID_MUSIC2                              0x18014
+HID_PAUSE                               0x18015
+HID_MUSIC3                              0x18016
+HID_MUSIC4                              0x18017
+HID_MUSIC5                              0x18018
+HID_MUSIC6                              0x18019
+HID_MUSIC7                              0x1801A
+HID_MUSIC8                              0x1801B
+HID_MUSIC9                              0x1801C
+HID_SOUND                               0x1801D
+HID_GAME_REPLAY                         0x1801E
+HID_MORE_MUSIC                          0x18021
+HID_STOP_MUSIC                          0x18022
+HID_MUSIC                               0x18024
+HID_TOOLBAR_TEXT                        0x18025
+HID_SCENE1                              0x18026
+HID_SCENE2                              0x18027
+HID_SCENE3                              0x18028
+HID_SCENE4                              0x1802A
+HID_LOAD                                0x1802C
+HID_SAVE                                0x1802D
+HID_DIFFICULTY                          0x18030
+HID_DIFF1                               0x18038
+HID_DIFF2                               0x18039
+HID_DIFF3                               0x1803A
+HID_DIFF4                               0x1803B
+HID_DIFF5                               0x1803C
+HID_DIFF6                               0x1803D
+HID_DIFF7                               0x1803F
+HID_TOOL_EDIT_MAP                       0x18041
+HID_TOOL_MISSION_MANAGE                 0x18049
+HID_TOOL_ANSWER_MANAGE                  0x18055
+HID_32854                               0x18056
+HID_OPTION_AUTO_ZOOM                    0x18057
+HID_32856                               0x18058
+HID_OPTION_SEQUENCE                     0x18059
+HID_32858                               0x1805A
+HID_OPEN_FILE                           0x1805B
+HID_32860                               0x1805C
+HID_TOOLS                               0x1805D
+HID_TOOL_SAVE_SECENE                    0x1805E
+HID_TOOL_SAVE_SCENE                     0x1805F
+HID_32864                               0x18060
+HID_TOOL_                               0x18061
+HID_TOOL_FILE_RELATION                  0x18062
+HID_32872                               0x18068
+HID_HELP_AUTHOR                         0x18069
+HID_32874                               0x1806A
+HID_HELP_WEB                            0x1806B
+HID_32876                               0x1806C
+HID_TOOL_PRINT                          0x1806D
+HID_32878                               0x1806E
+HID_VIEW_TEXTTIPS                       0x1806F
+HID_32880                               0x18070
+HID_COPY                                0x18071
+HID_32882                               0x18072
+HID_TOOL_PASTE                          0x18073
+HID_TOOL_COPY                           0x18074
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_BOXMANTYPE                         0x20081
+HIDR_MENU1                              0x20091
+HIDR_MENU2                              0x20096
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_SELECTMAP                          0x20083
+HIDD_MISSION_MANAGE                     0x20097
+HIDD_MISSION_CHILD                      0x20098
+HIDD_FILE_RELATION                      0x200AA
+ 
+// Frame Controls (IDW_*) 

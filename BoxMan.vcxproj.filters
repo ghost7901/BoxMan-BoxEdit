@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{e3da16ff-54ee-4c3f-a7d7-3147bc6f4a05}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{796c0226-9c26-450a-97ec-cd596d0a492c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{eea92b83-2978-492e-aae5-1197a45cb12e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="数据文件">
+      <UniqueIdentifier>{73ee607d-8c84-4c47-ac14-a36e3e5fd191}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoxMan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxManClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileRelationDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MailStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSelectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MIDI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionChildDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionManageDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMIDI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BoxMan.rc">
+      <Filter>源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoxMan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxManClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileRelationDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MailStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSelectDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MIDI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionChildDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionManageDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMIDI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BoxMan.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="hlp\Images\Bullet.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Cancel1_32x32x16.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Classes1_32x32x16.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00004.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00005.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico00006.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Key06.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Lamp1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Map1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Map2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Map3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Map4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ok.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Ok3_32x32x256.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Splsh16.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BoxMan.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hand.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cksj.bxm">
+      <Filter>数据文件</Filter>
+    </None>
+    <None Include="custom.bxm">
+      <Filter>数据文件</Filter>
+    </None>
+    <None Include="easy.bxm">
+      <Filter>数据文件</Filter>
+    </None>
+    <None Include="game.bxm">
+      <Filter>数据文件</Filter>
+    </None>
+    <None Include="impossible.bxm">
+      <Filter>数据文件</Filter>
+    </None>
+    <None Include="kid.bxm">
+      <Filter>数据文件</Filter>
+    </None>
+    <None Include="MoveWay.dat">
+      <Filter>数据文件</Filter>
+    </None>
+    <None Include="normal.bxm">
+      <Filter>数据文件</Filter>
+    </None>
+    <None Include="VeryHard.bxm">
+      <Filter>数据文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Resource.h">
+      <Filter>头文件</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
